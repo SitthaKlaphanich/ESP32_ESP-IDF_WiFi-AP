@@ -77,10 +77,10 @@ I (1107) wifi softAP: wifi_init_softap finished. SSID:myssid-258 password:123456
 I (1107) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.4.1
 I (1117) main_task: Returned from app_main()
 I (13847) wifi:new:<1,0>, old:<1,1>, ap:<1,1>, sta:<255,255>, prof:1, snd_ch_cfg:0x0
-I (13847) wifi:station: a6:18:f5:c7:92:91 join, AID=1, bgn, 20
-I (13877) wifi softAP: station a6:18:f5:c7:92:91 join, AID=1
+I (13847) wifi:station:  join, AID=1, bgn, 20
+I (13877) wifi softAP: station  join, AID=1
 I (15157) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.4.2
-I (16997) wifi:<ba-add>idx:2 (ifx:1, a6:18:f5:c7:92:91), tid:0, ssn:2, winSize:64
-I (22977) wifi:<ba-add>idx:3 (ifx:1, a6:18:f5:c7:92:91), tid:5, ssn:2, winSize:64
-I (23317) wifi:<ba-add>idx:4 (ifx:1, a6:18:f5:c7:92:91), tid:1, ssn:0, winSize:64
+I (16997) wifi:<ba-add>idx:2 (ifx:1, ), tid:0, ssn:2, winSize:64
+I (22977) wifi:<ba-add>idx:3 (ifx:1, ), tid:5, ssn:2, winSize:64
+I (23317) wifi:<ba-add>idx:4 (ifx:1, ), tid:1, ssn:0, winSize:64
 ```
